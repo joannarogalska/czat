@@ -62,6 +62,7 @@ class App extends Component {
     }
 
     chatUpdate(users) {
+        console.log('chatUpdate',users);
         this.setState({users});
     }
 
